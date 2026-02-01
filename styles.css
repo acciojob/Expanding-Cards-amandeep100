@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.container {
+display: flex;
+width: 600px;
+height: 300px;
+	border-radius:20px;
+}
+.panel{
+width: 10%;
+	background-size: cover;
+	background-position:center;
+	trasition: width 0.5s ease-in-out;
+	cursor: pointer;
+	display:flex;
+	align-items:flex-end;
+	color:white;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 30px;
+ }
+.panel.active{
+	width: 50%;
+}
+.panel .img-text{
+display:none;
+}
+.panel.active .img-text{
+display:block;
+}
