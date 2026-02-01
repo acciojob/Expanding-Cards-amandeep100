@@ -3,6 +3,7 @@
 display: flex;
 width: 600px;
 height: 300px;
+		gap: 5px;
 	border-radius:20px;
 }
 .panel{
@@ -17,6 +18,7 @@ width: 10%;
 	padding: 10px;
 	font-size: 20px;
 	border-radius: 30px;
+
  }
 .panel.active{
 	width: 50%;
